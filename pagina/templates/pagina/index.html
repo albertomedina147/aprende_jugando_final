@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load static %}  {# Muy importante amor: cargar static #}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+<h2>Bienvenido a Aprende Jugando</h2>
+<p>Explora nuestro catálogo de productos educativos y diviértete aprendiendo.</p>
+<img src="{% static 'img/portada.jpg' %}" alt="Imagen de portada" width="100%">
+{% endblock %}
