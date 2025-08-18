@@ -1,0 +1,18 @@
+# Crear una app en Django
+python manage.py startapp {nombre}
+----------------------------------------------------------------
+# Arrancar el servidor 
+python manage.py runserver
+----------------------------------------------------------------
+# Creación de base de datos
+python manage.py makemigrations {model}
+python manage.py migrate {model}
+# Si se hace cualquier cambio a la estructura de un modelo
+# deben volverse a usar los dos comandos anteriores.
+-----------------------------------------------------------------
+Editor de texto: 
+ py -m pip install django-ckeditor    
+----------------------------------------------------------------
+Conexión con mysql
+pip install pymysql
+pip install cryptography
